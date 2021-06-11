@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    padding:50px 150px;
+    padding-bottom: 0px;
+}
+.flex-container{
+    margin: 15px;
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.flex-items{
+    width:300px;
+    height:400px;
+    background-color:black;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.img{ 
+    background-color: cadetblue;
+    height:200px;
+    width:300px; 
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url(Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: "Bangers";
+    src: url(Bangers-Regular.ttf);
+}
+@font-face {
+    font-family: "GreatVibes";
+    src: url(GreatVibes-Regular.ttf);
+}
+.header{
+    font-family: "Pacifico";
+    font-size: 64px;
+    text-align: center;
+    text-shadow: 5px 5px 40px #ed95dc  ;
+}
+.text{
+    font-family:"Bangers";
+    font-size: 16px;
+    text-align: center;
+    margin-top:28px;
+    color: cornsilk;
+}
+button{
+    padding:20px 35px;
+    margin: 10px 40px;
+    width:200px;
+    font-size: 16px;
+    text-align: center;
+    font-family: "GreatVibes";
+    font-weight: bold;
+    background-color: #ed95dc;
+}
+button:hover{
+    background-color: #eb6cd2;
+    border: 5px ridge #f52ccd;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: black;
+}
+p{
+    padding: 30px;
+}
+@media only screen and (max-width : 320px){
+    body{
+        padding:50px 5px;
+    }
+    .header{
+        font-size: 10px;
+    }    
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+    body{
+        padding: 50px 7px;
+    }
+    .header{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-device-width:540px) and (max-device-width:720px){
+    body{
+        padding: 50px 9px;
+    }
+    .header{
+        font-size: 18px;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    body{
+        padding: 50px 10px;
+    }
+    .header{
+        font-size:20px;
+    }
+}
+@media only screen  and (min-width : 1224px) {
+    body{
+        padding:50px 150px;
+    }
+    .header{
+        font-size: 64px;
+    }  
+}
